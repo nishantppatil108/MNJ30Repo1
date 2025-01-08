@@ -4,7 +4,6 @@ phases:
   install:
     commands:
       - echo Installing Httpd
-      - sudo yum update
       - sudo yum install httpd -y
   build:
     commands:
